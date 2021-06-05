@@ -1,0 +1,16 @@
+{
+  "name": "Simple window",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Open in simple window",
+  "browser_action": {
+    "default_title": "Open in simple window",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
