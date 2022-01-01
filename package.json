@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prebuild": "rsync -av --exclude='*.ts' src/* dist",
+    "prebuild": "rsync -av --exclude='*.ts' src/* dist/",
     "build": "tsc"
   },
   "author": "",
