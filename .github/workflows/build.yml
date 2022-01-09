@@ -1,7 +1,7 @@
 name: build
 on:
-  push:
-    branches: ['main']
+  release:
+    types: ['published']
   pull_request:
     branches: ['main']
 jobs:
